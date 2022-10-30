@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Props in React</h1>
         <Profile name="Aditi" class="TE" />
-        <Profile name="Shubh" class="BE" />
+        <Profile name="Shubham" class="BE" />
       </header>
     </div>
   );
