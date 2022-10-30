@@ -1,4 +1,5 @@
-//File Calc.js
+//REPL CALCULATOR
+//REPLCALC.JS
 const readline = require('readline')
 const r1 = readline.createInterface({
   input: process.stdin,
@@ -24,4 +25,5 @@ r1.question("Enter First No: ", (n1)=>{
   })
 })
 })
-//run node calc.js
+
+//RUN NODE REPLCALC.JS
