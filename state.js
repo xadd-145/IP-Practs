@@ -24,7 +24,7 @@ class Profile extends React.Component {
   }
   updateState(){
     this.setState({
-      name: 'Shubh',
+      name: 'Shubham',
       class: 'BE',
       count: this.state.count+1
     })
