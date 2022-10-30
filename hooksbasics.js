@@ -1,4 +1,5 @@
-//App.js for hooks
+//HOOKS BASICS
+//APP.JS
 import React, { useState,useEffect } from "react";
 
 function App() {
@@ -47,5 +48,6 @@ function App() {
 }
 
 export default App;
-//Run NPM START
+
+//RUN NPM START
 
