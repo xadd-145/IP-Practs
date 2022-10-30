@@ -1,5 +1,5 @@
 //PROPS
-//App.js
+//APP.JS
 import logo from './logo.svg';
 import './App.css';
 import Profile from './Profile'
@@ -19,7 +19,7 @@ function App() {
 export default App;
 
 
-//Profile.js
+//PROFILE.JS
 import React from 'react'
 //Functional Props
 /*function Profile(prop) {
