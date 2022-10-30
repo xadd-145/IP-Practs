@@ -1,6 +1,6 @@
-//Filesystem node
+//FILESYSTEM NODE
 
-//Writing a file
+//WRITE a file
 var fs = require("fs");
 fs.writeFile('hello.txt', 'Hello Friends, this is file system', function(err) {
 if (err) {
@@ -10,7 +10,7 @@ console.log("Data written successfully!");
 });
 
 
-//Append a file
+//APPEND a file
 var fs = require('fs');
 var data = "\nWelcome:)";
 fs.appendFile('hello.txt', data, 'utf8', function(err) {
@@ -19,7 +19,7 @@ fs.appendFile('hello.txt', data, 'utf8', function(err) {
 });
 
 
-//Reading a file
+//READ a file
 //1.Async
 var fs = require("fs");
 fs.readFile('hello.txt', function (err, data) {
@@ -36,7 +36,7 @@ var data = fs.readFileSync('hello.txt');
 console.log("Read: " + data.toString());
 
 
-//Opening a file
+//OPEN a file
 var fs = require("fs");
 console.log("opening file!");
 fs.open('hello.txt', 'r+', function(err, fd) {
@@ -46,7 +46,7 @@ fs.open('hello.txt', 'r+', function(err, fd) {
     console.log("File open successfully");	
 });
 
-//Closing a file
+//CLOSE a file
 fs.close(fd, function(err) {
     if (err) {
         console.log(err);
@@ -55,7 +55,7 @@ fs.close(fd, function(err) {
 }
 
 
-//Deleting a File
+//DELETE a File
 var fs = require("fs");
 console.log("deleting an existing file");
 fs.unlink('hello.txt', function(err) {
@@ -65,7 +65,7 @@ fs.unlink('hello.txt', function(err) {
     console.log("File deleted successfully!");
 });
 
-//Open & Read
+//OPEN & READ
 var fs = require("fs");
 var buf = new Buffer(1024);
 
@@ -90,4 +90,4 @@ fs.read(fd, buf, 0, buf.length, 0, function(err, bytes){
 });
 });
 
-//RUN node filesystem.js
+//RUN NODE FILESYSTEM.JS
